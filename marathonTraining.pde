@@ -13,7 +13,7 @@ void draw() {
   float rectWidth = width/(milesRun.length);
   
   while(count < milesRun.length) {
-    rect(rectWidth * count,yPos,rectWidth,milesRun[count]*multiplier);
+    rect(rectWidth * count,height,rectWidth,milesRun[count]*multiplier);
     count++;
   }
 }
