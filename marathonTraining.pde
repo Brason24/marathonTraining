@@ -9,12 +9,10 @@ void setup() {
 
 void draw() {
   int count = 0;
-  int multiplier = 5;
-  float yPos = 0;
+  int multiplier = -5;
   float rectWidth = width/(milesRun.length);
   
   while(count < milesRun.length) {
-    yPos = height - (milesRun[count]*multiplier);
     rect(rectWidth * count,yPos,rectWidth,milesRun[count]*multiplier);
     count++;
   }
