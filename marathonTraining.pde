@@ -1,4 +1,4 @@
-float [] milesRun = {1,12,22.5,3,14,17,2};
+float [] milesRun = {1,12,22.5,7,14,17,2};
 
 void setup() {
   size(350,200);
